@@ -5,19 +5,50 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto|Yellowtail');
 
 header {
-	background-color: #2A9D8F;
-	text-align: center;
+	
+	/*background-image: url('images/coverUB.jpg');*/
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-color:#2a9d8f;
+	
 }
-
 body{
 	background-color: #FFFFFF;
 }
-nav {
-	float:right;
+header div{
+	position: relative;
+	width:100%;
+	margin:auto;
+	text-align:center;
+	padding-top: 25px;
+	padding-bottom:25px;
+		
 }
-
-nav a {
+/* using class here */
+.roundedpro {
+	border-radius: 50%;
+	border: 4px solid #e9c46a;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* using class here */
+.greetings {
+	position:absolute;
+	top:50px;
+	left:50px;
+	color: #e9c46a;
+	font-family: Yellowtail;
+	font-size: 45px;
+	padding:0;
+	margin:0;
+}
+nav {
+	display: block;
+	position:absolute;
+	right:10px;
 	
+}
+nav a {
 	color: #ffffff;
 	text-decoration: none;
 	text-align:left;
@@ -25,68 +56,89 @@ nav a {
 	margin: 0 50px 0 0;
 	font-family:'Bebas Neue';
 	font-size: 25px;
-	
-	
 	}
 nav a:hover{
 	color: #e76f51;
 }
+/* nested selector*/ 
+li a:link{
+	color: #2a9d8f;
+	text-decoration:none;
+	
+	
+}
+li a:visited{
+	color: #2a9d8f;
+	text-decoration:none;
+}
+li a:hover{
+	color: #e76f51;
+	text-decoration:none;
+}
+li a:active{
+	color: #2a9d8f;
+	text-decoration:none;
+}
 
-.roundedpro {
-	border-radius: 50%;
-	border: 4px solid #e9c46a;
-	margin:0;
-	padding:0;
-	
-}
-header div{
-	padding-top: 25px;
-	padding-bottom:25px;
-	
-	
-}
-.headerpng{
-	
-	
-}
-.greetings {
-	float:left;
-	color: #e9c46a;
-	font-family: Yellowtail;
-	font-size: 35px;
-	padding:50px 0 0 65px;
-	margin:0;
-	
-	
-}
+
+
 h1{ 
 	color: #264653;
 	font-family: 'Bebas Neue';
 	font-size: 50px;
 	margin:0;
 	padding:15px 0 0 0;
-	
 }
-h2,h3{
-	color: #e9c46a;
+/*grouped css selector*/
+h2,h3,h4{
+	color: #e76f51;
 	font-family: Roboto;
 	font-size: 25px;
 	margin:0;
 	padding:0;
 }
+h4{
+	color: #2a9d8f;
+	font-size:20px;
+}
+.soloyellow{
+	color:#e9c46a;
+}
+section {
+	margin: 50px 0 0 50px;
+	padding: 50px 0 0 50px;
+}
+ul {
+  list-style: none;
+  list-style-image: url(images/liicon.png);
+}
+hr{
+	border: 0;
+	height: 5px;
+    background-image: linear-gradient(to right, #264653,#2A9D8F, #E9C46A, #F4A261,#E76F51);
+	margin: 20px;
 
-p{
-	width:600px;
+}
+p,ul,label{
+	margin: auto;
+	padding: 10px;
+	width:80%;
 	color:#264653;
 	font-family: Roboto;
 	font-size: 20px;
+	text-align:justify;
+	text-indent: 25px;
 	
 	
 }
+/*centering contents*/
+.contactimg{
+	text-align:center;
+}
+/* playing with opacity of images used in links*/
 .opaplay{
 	margin: 10px;
-	opacity: 0.7;
-	
+	opacity: 0.6;
 }
 .opaplay:hover{
 	opacity:1;
@@ -98,8 +150,28 @@ main div {
 	padding: 10px;
 	
 }
-
+input {
+	color: #ffffff;
+	border-color: #e76f51;
+	margin:10px;
+	background-color:#264653;
+	font-family:'Bebas Neue';
+	font-size: 25px;
+}
+input:hover {
+	color: #e76f51;
+	border-color: #2a9d8f;
+	background-color:#264653;
+	font-family:'Bebas Neue';
+	font-size: 25px;
+}
+input::placeholder {
+	color:#ffffff;
+	font-family:'Roboto';
+	font-size: 15px;
+}
 footer {
+	position:relative;
 	width:100%;
 	height:200px;
 	background-color: #264653;
@@ -108,15 +180,16 @@ footer {
 	}
 footer p {
 	color: #ffffff;
-	float:center;
 	text-align:center;
-	margin:0;
+	margin:auto;
 	padding:150px 0 0 0;
+	font-size: 15px;
 }
 footer nav {
-	float: left;
-	margin: 25px 0 0 25px;
-	padding:0;
+	position:absolute;
+	left:20px;
+	top:20px;
+	
 }
 footer div img {
 	float:right;
