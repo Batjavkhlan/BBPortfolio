@@ -1,4 +1,4 @@
-<h1> Hello ! </h1>
+<h1 style="color:orange;"> Hello ! </h1>
 <img src="images/pro-rounded.png" width="200">
 <p>Batjavkhlan BatAmgalan portfolio web page</p>
 <p>Student at @ThinkFul</p> 
