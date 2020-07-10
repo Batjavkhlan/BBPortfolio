@@ -2,49 +2,53 @@
   box-sizing: border-box;
 }
 /*universal box sizing */
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto|Yellowtail');
+
 
 header {
 	/*background-image: url('images/coverUB.jpg');*/	
-	background-image: linear-gradient(to right, #2A9D8F, #264653);
-	background-repeat:no-repeat;
-	background-size: contain;
+	background-image: linear-gradient(to right, #8a817c, #495867);
 	/*background-color:#2a9d8f;*/
 	
 }
 body{
-	background-color: #FFFFFF;
+	background-color: #f8f9fa;
 }
 header div{
 	position: relative;
 	width:100%;
-	padding:25px;
-	 
+	padding:15px;
+	
 }
 /* using class here */
 .roundedpro {
 	border-radius: 50%;
-	border: 5px solid #e9c46a;
+	border: 3px solid #ffba08;
 	margin-left: 50px;
 	
 }
 /* using class here */
 .greetings {
 	position:absolute;
-	top:25px;
-	right:100px;
-	
-	color: #e9c46a;
-	font-family: Yellowtail;
-	font-size: 45px;
+	bottom:25px;
+	right:200px;
+	color: #ffba08;
+	font-family: 'Caveat';
+	font-size: 30px;
 	padding:0;
 	margin:0;
+}
+.fullname{
+	position:absolute;
+	top:120px;
+	left:280px;
+	color:#a6a2a2;
 }
 .standingimg{
 	position:absolute;
 	right:50px;
 	bottom:0;
 }
+
 nav {
 	display: block;
 	position:absolute;
@@ -58,10 +62,10 @@ nav a {
 	padding:0;
 	margin: 0 50px 0 0;
 	font-family:'Bebas Neue';
-	font-size: 35px;
+	font-size: 20px;
 	}
 nav a:hover{
-	color: #e76f51;
+	color: #ffba08;
 }
 /* nested selector*/ 
 li a:link{
@@ -86,56 +90,55 @@ li a:active{
 
 
 h1{ 
-	color: #264653;
-	font-family: 'Bebas Neue';
-	font-size: 40px;
+	color: #ffffff;
+	font-family: 'Berkshire Swash';
+	font-size: 60px;
+	position: absolute;
+	top:40px;
+	left:270px;
 	margin:0;
 	padding:15px 0 0 0;
 }
+
 /*grouped css selector*/
 h2,h3,h4{
-	color: #e76f51;
-	font-family: Roboto;
+	color: #495867;
 	font-size: 25px;
+	font-weight:900;
 	margin:0;
 	padding:0;
+	font-family: Lato;
 }
 h4{
 	color: #2a9d8f;
 	font-size:20px;
 }
-.soloyellow{
-	color:#e9c46a;
-	font-size:20px;
-	
-}
+
 section {
-	margin: 50px 0 0 50px;
-	padding: 50px 0 0 50px;
-	 
+	margin: 20px 0 0 20px;
+	padding: 10px 0 0 20px;
 }
 ul {
   list-style: none;
   list-style-image: url(images/liicon.png);
+  
 }
 hr{
 	border: 0;
-	height: 5px;
-    background-image: linear-gradient(to right, #264653,#2A9D8F, #E9C46A, #F4A261,#E76F51);
-	margin: 20px;
-
+	height: 2px;
+    background-image: linear-gradient(to right, #495867,#8a817c, #E9C46A, #F4A261,#E76F51);
+	margin: 0px;
 }
 p,ul,label{
 	margin: auto;
 	padding: 10px;
 	width:80%;
-	color:#264653;
-	font-family: Roboto;
-	font-size: 20px;
+	font-family: 'Lato';
+	color:#495867;
+	font-size: 22px;
 	text-align:justify;
 	text-indent: 25px;
-	
-	
+	font-weight:0;
 }
 /*centering contents*/
 .contactimg{
@@ -152,7 +155,7 @@ p,ul,label{
 }
 main div {
 	margin: auto;
-	width: 60%;
+	width: 80%;
 	padding: 10px;
 	
 }
@@ -161,25 +164,25 @@ input {
 	border-color: #e76f51;
 	margin:10px;
 	background-color:#264653;
-	font-family:'Bebas Neue';
-	font-size: 25px;
+	font-family:'Lato';
+	font-size: 15px;
 }
 input:hover {
 	color: #e76f51;
 	border-color: #2a9d8f;
 	background-color:#264653;
-	font-family:'Bebas Neue';
-	font-size: 25px;
+	font-family:'Lato';
+	
 }
 input::placeholder {
 	color:#ffffff;
-	font-family:'Roboto';
-	font-size: 15px;
+	font-family:'Lato';
+	font-size: 10px;
 }
 footer {
 	position:relative;
 	width:100%;
-	height:200px;
+	height:150px;
 	background-color: #264653;
 	text-align: left;
 	
@@ -188,8 +191,9 @@ footer p {
 	color: #ffffff;
 	text-align:center;
 	margin:auto;
-	padding:150px 0 0 0;
+	padding:100px 0 0 0;
 	font-size: 15px;
+	font-family:Lato;
 }
 footer nav {
 	position:absolute;
