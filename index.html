@@ -1,157 +1,154 @@
 <!DOCTYPE html>
 	<html lang="en">
 		<head>
-			<!-- selecting charset -->
-			<meta charset="utf-8">
-			<!--setting compatible for all kind of width screens -->
-			<meta name="viewport" content="width=device-width">
-			<!-- page title  -->
-			<title> BB portfolio page </title>
-			<!-- using normalize to make compatible for all kind of browsers-->
-			<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
-			<!-- linking beautiful fonts  from Google, thank you google :D
-			linked every fonts one by one cause when checking with validator.w3.org it giving error on seperator '|' sign-->
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Berkshire+Swash"/>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"/>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue"/>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yellowtail"/>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat"/>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wire+One"/>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
-			<!--linking my own css attached to page -->
-			<link href="style.css" rel="stylesheet" type="text/css"/>
-				</head>
-				<body>
-					<header id="home">
-						<div>
-							<h3 class="greetings">Hello ! , I am Jason from Mongolia </h3>
-							<nav>
-								<a href=#intro>Intro</a>
-								<a href=#aboutme>About me</a>
-								<a href=#contactme>Contact</a>
-								<a href=#js>JS add</a>
-							</nav>
-							<img class="roundedpro" src="images/pro-pic.jpg" alt="profile image" width="180">
-							<h1>Jason</h1>
-							<h3 class="fullname">Batjavkhlan BatAmgalan</h3>
-							<img class="standingimg" src="images/header-image.png" alt="standing pic" height="200">
-						</div>
-						<hr>
-					</header>
-								<main>
-									<div>
-										<section id="intro">
-											<h3>Intro</h3>
-											<h4>Hello there</h4>
-											<p>I am Batjavkhlan BatAmgalan, BB, Jason, from Ulaanbaatar Mongolia  <img src="images/mongolia-flag-small.png" alt="Mongolian flag" width="40"></p>
-												<p>Some facts:</p>
-												<ul>
-													<li>A guy who loves thinking and talking about big pictures of small things.</li>
-													<li>Now I am working as part time IT specialist at foreign project</li>
-													<li>Writes Business Plans for small to mid businesses</li>
-													<li>
-														<a class="playlist" href="https://www.youtube.com/playlist?list=PLNyGJY_SJkN_WzXvfRoOcpVfDSvaHa0sr" target="_blank">Here is My Playlist </a>
-													</li>
-												</ul>
-												<hr>
-												</section>
-												<section id="aboutme">
-													<h3>About me</h3>
-													<h4>Passion</h4>
-													<p>
-														In the last decade, during the pursuit of my career, I worked in numerous types of sectors,
-														bottom to tops such as </p>
-													<ul>
-														<li>Traveling company</li>
-														<li>Restaurant</li>
-														<li>IT shop</li>
-														<li>Road construction</li>
-														<li>Mining</li>
-														<li>Consulting</li>
-													</ul>
-													<p>
-														also full-time business plan writer.
-													</p>
-													<p>
-														In a certain rich journey, I realized and loved that web, web development has 
-														enormous potential to develop businesses and individuals to succeed. Also, the process 
-														of creating a web site is beautiful like collecting unique data,  designing, functioning.
-													</p>
-													<p>
-														I want to achieve sharp skills to help solve a problem or 
-														create webs for whoever needs it and fits unique needs.
-													</p>
-													<p>
-														"well-developed web equals well-developed businesses"
-													</p>
-													<h4>Willingness to<br>work with others</h4>
-														<p>
-															Even Devil accepted for developing the web with me.
-															Learning from others while cooperating is my advantage,
-															also I love the effectiveness of learning by teaching others.
-														</p>
-														<h4>Other interests</h4>
-														<p>Beside coding, I interested in basketball, chess, poker, CSGO and hiking.
-														</p>
-														<hr>
-													</section>
-											<!-- contact me section used logos to link to my profiles and email-->
-												<section id="contactme">
-														<h3>Contact me</h3>
-														<h4>I'd love to hear from you !</h4>
-														<p>Please feel free to contact me or follow me:</p>
-														<p>BATJAVKHLAN BATAMGALAN</p>
-														<p>Ulaanbaatar, Mongolia</p>
-														<p>+976 8819 - 3719</p>
-														<div class="contactimg">
-															<!-- using images as link to my profiles and emails-->
-															<a href="https://www.linkedin.com/in/batjavkhlan/" target="_blank"><img class="opaplay" alt="Linkedin logo" src="images/linkedin.png" width="50"/></a>
-															<a href="https://github.com/Batjavkhlan" target="_blank"><img class="opaplay" alt="github logo" src="images/githublogo.png" width="50"/></a>
-															<a href="mailto:batjavkhlan.jason@gmail.com" target="_blank"><img class="opaplay" alt="gmail logo" src="images/gmail-logo.png" width="50"/></a>
-															<a href="https://www.facebook.com/bbatjavkhlan" target="_blank"><img class="opaplay" alt="FB logo" src="images/FB-logo.png" width="50"/></a>
-														</div>
-														<hr>
-														</section>
-												<section id="js">
-															<h3>JavaScript </h3>
-															<h4>BMI calculator</h4>
-															<p>An empty script.js looks so incomplete :D so I decided to include little JS functions.</p>
-															<p>Inspired from Prep Course Module 4 Alien name Generator.</p>
-															<form id="bmi-calculator" onsubmit="bmiSubmit();">
-																<div class="form-group">
-																	<label for="bmi-height"> Height in cm</label>
-																	<br>
-																		<input type="number" name="height" id="bmi-height" placeholder="input your height in cm">
-																			<br>
-																				<label for="bmi-weight"> Weight in kg</label>
-																				<br>
-																					<input type="number" name="weight" id="bmi-weight" placeholder="input your weight in kg">
-																						<br>
-																							<input type="submit" id="bmi-button" value="Calculate !">
-																								<input type="reset" id="bmi-reset">
-																								</div>
-																							</form>
-																							<p id="bmi-result">Coders & developers should be fit in shape for a long happy coding journey !  </p>
-																						</section>
-									</div>
-								</main>
-																				<!--footer starts here-->
-								<footer>
-																					<!--footer container-->
-																					<div class="footdiv">
-																						<!--footer navigation -->
-																						<nav>
-																							<a href=#intro>Intro</a>
-																							<a href=#aboutme>About me</a>
-																							<a href=#contactme>Contact</a>
-																							<a href=#js>JS add</a>
-																						</nav>
-																						<p>This is Portfolio web page of BATJAVKHLAN BATAMGALAN &copy; <br>student at ThinkFul. It made with HTML, CSS, JS<br> 2020 </p>
-																							</div>
-																						</footer>
-								<!--linking my script to a page-->
-								<script src="script.js"></script>
+		<!-- selecting charset -->
+		<meta charset="utf-8">
+		<!--setting compatible for all kind of width screens -->
+		<meta name="viewport" content="width=device-width">
+		<!-- page title  -->
+		<title> BB portfolio page </title>
+		<!-- using normalize to make compatible for all kind of browsers-->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+		<!-- linking beautiful fonts  from Google, thank you google :D
+		linked every fonts one by one cause when checking with validator.w3.org it giving error on seperator '|' sign-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Berkshire+Swash"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yellowtail"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wire+One"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+		<!--linking my own css attached to page -->
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+			</head>
+			<body>
+			<header id="home">
+			<div>
+			<h3 class="greetings">Hello ! , I am Jason from Mongolia </h3>
+			<nav>
+				<a href=#intro>Intro</a>
+				<a href=#aboutme>About me</a>
+				<a href=#contactme>Contact</a>
+				<a href=#js>JS add</a>
+			</nav>
+			<img class="roundedpro" src="images/pro-pic.jpg" alt="profile image" width="180">
+			<h1>Jason</h1>
+			<h3 class="fullname">Batjavkhlan BatAmgalan</h3>
+			<img class="standingimg" src="images/header-image.png" alt="standing pic" height="200">
+			</div>
+			<hr>
+			</header>
+			<main>
+				<div>
+					<section id="intro">
+					<h3>Intro</h3>
+					<h4>Hello there</h4>
+					<p>I am Batjavkhlan BatAmgalan, BB, Jason, from Ulaanbaatar Mongolia  <img src="images/mongolia-flag-small.png" alt="Mongolian flag" width="40"></p>
+					<p>Some facts:</p>
+					<ul>
+						<li>A guy who loves thinking and talking about big pictures of small things.</li>
+						<li>Now I am working as part time IT specialist at foreign project</li>
+						<li>Writes Business Plans for small to mid businesses</li>
+						<li>
+						<a class="playlist" href="https://www.youtube.com/playlist?list=PLNyGJY_SJkN_WzXvfRoOcpVfDSvaHa0sr" target="_blank">Here is My Playlist </a>
+					</li>
+					</ul>
+					<hr>
+					</section>
+					<section id="aboutme">
+					<h3>About me</h3>
+					<h4>Passion</h4>
+					<p>
+					In the last decade, during the pursuit of my career, I worked in numerous types of sectors,
+					bottom to tops such as </p>
+					<ul>
+					<li>Traveling company</li>
+					<li>Restaurant</li>
+					<li>IT shop</li>
+					<li>Road construction</li>
+					<li>Mining</li>
+					<li>Consulting</li>
+					</ul>
+					<p>
+					also full-time business plan writer.
+					</p>
+					<p>
+					In a certain rich journey, I realized and loved that web, web development has 
+					enormous potential to develop businesses and individuals to succeed. Also, the process 
+					of creating a web site is beautiful like collecting unique data,  designing, functioning.
+					</p>
+					<p>
+					I want to achieve sharp skills to help solve a problem or 
+					create webs for whoever needs it and fits unique needs.
+					</p>
+					<p>
+					"well-developed web equals well-developed businesses"
+					</p>
+					<h4>Willingness to<br>work with others</h4>
+					<p>
+					Even Devil accepted for developing the web with me.
+					Learning from others while cooperating is my advantage,
+					also I love the effectiveness of learning by teaching others.
+					</p>
+					<h4>Other interests</h4>
+					<p>Beside coding, I interested in basketball, chess, poker, CSGO and hiking.
+					</p>
+					<hr>
+					</section>
+					<!-- contact me section used logos to link to my profiles and email-->
+					<section id="contactme">
+					<h3>Contact me</h3>
+					<h4>I'd love to hear from you !</h4>
+					<p>Please feel free to contact me or follow me:</p>
+					<p>BATJAVKHLAN BATAMGALAN</p>
+					<p>Ulaanbaatar, Mongolia</p>
+					<p>+976 8819 - 3719</p>
+					<div class="contactimg">
+					<!-- using images as link to my profiles and emails-->
+					<a href="https://www.linkedin.com/in/batjavkhlan/" target="_blank"><img class="opaplay" alt="Linkedin logo" src="images/linkedin.png" width="50"/></a>
+					<a href="https://github.com/Batjavkhlan" target="_blank"><img class="opaplay" alt="github logo" src="images/githublogo.png" width="50"/></a>
+					<a href="mailto:batjavkhlan.jason@gmail.com" target="_blank"><img class="opaplay" alt="gmail logo" src="images/gmail-logo.png" width="50"/></a>
+					<a href="https://www.facebook.com/bbatjavkhlan" target="_blank"><img class="opaplay" alt="FB logo" src="images/FB-logo.png" width="50"/></a>
+					</div>
+					<hr>
+					</section>
+					<section id="js">
+					<h3>JavaScript </h3>
+					<h4>BMI calculator</h4>
+					<p>An empty script.js looks so incomplete :D so I decided to include little JS functions.</p>
+					<p>Inspired from Prep Course Module 4 Alien name Generator.</p>
+					<form id="bmi-calculator" onsubmit="bmiSubmit();">
+					<div class="form-group">
+					<label for="bmi-height"> Height in cm</label>
+					<br>
+					<input type="number" name="height" id="bmi-height" placeholder="input your height in cm"><br>
+					<label for="bmi-weight"> Weight in kg</label><br>
+					<input type="number" name="weight" id="bmi-weight" placeholder="input your weight in kg"><br>
+					<input type="submit" id="bmi-button" value="Calculate !">
+					<input type="reset" id="bmi-reset">
+					</div>
+					</form>
+					<p id="bmi-result">Coders & developers should be fit in shape for a long happy coding journey !  </p>
+					</section>
+					</div>
+				</main>
+				<!--footer starts here-->
+				<footer>
+				<!--footer container-->
+				<div class="footdiv">
+				<!--footer navigation -->
+				<nav>
+				<a href=#intro>Intro</a>
+				<a href=#aboutme>About me</a>
+				<a href=#contactme>Contact</a>
+				<a href=#js>JS add</a>
+				</nav>
+				<p>This is Portfolio web page of BATJAVKHLAN BATAMGALAN &copy; <br>student at ThinkFul. It made with HTML, CSS, JS<br> 2020 </p>
+				<div>
+				</footer>
+				<!--linking my script to a page-->
+				<script src="script.js"></script>
 				</body>
 	</html>
 																				
