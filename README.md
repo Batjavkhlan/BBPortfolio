@@ -5,6 +5,8 @@
 <h3>Feel free to contact me about ideas & advices</h3>
 <a href="https://www.facebook.com/bbatjavkhlan" targe="_blank"><img src="images/FB-logo.png" width="40"></a>
 <a href="mailtto:batjavkhlan.jason@gmail.com" targe="_blank"><img src="images/gmail-logo.png" width="40"></a>
+<h3>Completed Prep Course, but Failed to get loan or any scholarship. :( cause of none US citizenship </h3>
+<h3>so starting this as my private profile page </h3>
 <h3>Assignment Technical Requirements Checklist</h3>
 <ul>Your portfolio must be hosted on GitHub Pages, and must include the following technical elements:
 <li>The following HTML elements:
